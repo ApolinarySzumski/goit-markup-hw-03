@@ -1,0 +1,81 @@
+.for-entire-website {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #212121;
+}
+a[href="WebStudio"] {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+}
+a[href="WebStudio"] .black-text {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+}
+a[href="Portfolio"] {
+  color: #2196f3;
+}
+a[href="mailto:info@devstudio.com"] {
+  color: #757575;
+}
+a[href="tel:48111111111"] {
+  color: #757575;
+}
+.buttons {
+  text-align: center;
+}
+.aktywny {
+  color: #ffffff;
+  background-color: #2196f3;
+  line-height: 139%;
+  font-size: 16px;
+}
+button {
+  color: #212121;
+  background-color: #f5f4fa;
+  line-height: 139%;
+  font-size: 16px;
+}
+figcaption {
+  font-size: 18px;
+  font-weight: 700;
+}
+figcaption .grey-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer {
+  background-color: #2f303a;
+}
+.white-text {
+  color: #ffffff;
+  line-height: 146%;
+  font-weight: 400;
+}
+a[href="mailto:info@example.com"] {
+  color: #2196f3;
+  line-height: 146%;
+  font-weight: 400;
+}
+a[href="tel:48111111111"] {
+  color: #757575;
+  line-height: 146%;
+  font-weight: 400;
+}
