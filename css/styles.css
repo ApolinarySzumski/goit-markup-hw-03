@@ -1,86 +1,110 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
-ul {
+.list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-a {
+.paragraph {
   text-decoration: none;
+  line-height: 1.14;
 }
-a:visited {
+.menu:visited {
   color: #212121;
 }
-a[href="index.html"] {
+.paragraph {
   color: #2196f3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.19;
 }
-a[href="index.html"] .black-text {
+.paragraph .black-text {
   color: #000000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.19;
+}
+.menu {
+  text-decoration: none;
 }
 .menu:hover {
   color: #2196f3;
 }
-a[href="mailto:info@devstudio.com"] {
+.mail_number {
   color: #757575;
+  text-decoration: none;
 }
-h1 {
+.mail_number:hover {
+  color: #2196f3;
+}
+.header_1 {
   color: #ffffff;
   background-color: #2f303a;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
 }
-.active{
+.active {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+}
+.hover-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+.button {
+  cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
 }
-.button {
-  text-align: center;
-  cursor: pointer;
-}
-button {
-  background-color: #F5F4FA;
+.header_4 {
   font-weight: 700;
-  font-size: 16px;
+  line-height: 1.14;
 }
-h4 {
-  font-weight: 700;
-}
-p {
+.lorem {
   color: #757575;
+  line-height: 1.71;
 }
-h2 {
+.header_2 {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
 }
-figcaption {
+.picture_index {
   font-size: 16px;
+  line-height: 1.1875;
 }
-figcaption .grey-text {
+.grey-text {
   color: #757575;
+  line-height: 1.1875;
 }
-figcaption .portfolio {
+.portfolio {
   font-size: 18px;
   font-weight: 700;
+  line-height: 2;
 }
-footer {
+.background {
   background-color: #2f303a;
 }
 .white-text {
   color: #ffffff;
+  line-height: 1.71;
 }
-a[href="mailto:info@example.com"] {
+.footer_mail_number {
   color: #757575;
-}
-a[href="tel:48111111111"] {
-  color: #757575;
+  line-height: 1.71;
+  text-decoration: none;
 }
