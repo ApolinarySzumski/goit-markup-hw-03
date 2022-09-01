@@ -3,24 +3,24 @@ body {
   color: #212121;
   margin: 0;
   padding: 0;
+  width: 1600px;
+}
+.header-border {
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+  border-bottom-color: #ececec;
 }
 .container {
   box-sizing: border-box;
   width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-container {
-  width: 1200px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid;
-  border-bottom-color: #ececec;
-  height: 100%;
 }
 .left-header-container {
   box-sizing: border-box;
@@ -69,14 +69,17 @@ body {
   padding-top: 32px;
   padding-right: 0;
 }
-.background-button {
+.banner-container {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  width: 1600px;
   background-color: #2f303a;
-  align-items: flex-start;
-  padding-bottom: 200px;
+  align-items: center;
+  padding: 200px 0;
+}
+.header-button-container{
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }
 .paragraph {
   text-decoration: none;
@@ -116,7 +119,6 @@ body {
 .header_1 {
   box-sizing: border-box;
   display: flex;
-  width: 696px;
   align-items: center;
   justify-content: center;
   color: #ffffff;
@@ -124,16 +126,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  margin-top: 200px;
-  margin-left: 452px;
-  margin-bottom: 0;
   padding: 0;
+  margin: 0;
 }
 .active {
   box-sizing: border-box;
   display: flex;
-  height: 50px;
-  width: 200px;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -142,10 +140,8 @@ body {
   font-size: 16px;
   line-height: 1.875;
   cursor: pointer;
-  margin-top: 40px;
-  margin-left: 700px;
-  margin-bottom: 0;
-  padding: 0;
+  margin-top: 30px;
+  padding: 10px 41px 10px 42px;
   border: none;
 }
 .hover-button:hover {
@@ -153,7 +149,7 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.lorem-section {
+.lorem-ipsum {
   box-sizing: border-box;
   padding-bottom: 94px;
 }
@@ -203,16 +199,9 @@ body {
   padding: 0;
   justify-content: space-between;
 }
-.people-container {
+.our-team {
   box-sizing: border-box;
-  width: 1600px;
   background-color: #f5f4fa;
-}
-.people {
-  box-sizing: border-box;
-  width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -230,7 +219,6 @@ body {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  width: 1200px;
 }
 .picture_index {
   box-sizing: border-box;
@@ -264,10 +252,6 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 1200px;
-  margin-left: 215px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .white-text {
   color: #ffffff;
@@ -296,8 +280,6 @@ body {
 .buttons-container {
   box-sizing: border-box;
   display: flex;
-  height: 182px;
-  width: 1600px;
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
